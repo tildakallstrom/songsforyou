@@ -1,0 +1,12 @@
+﻿
+
+                <!--date and date to string to only show date, not time-->
+                @{
+                    var date = DateTime.Now;
+                }
+                <div class="time">
+                <p>@date.ToString("yyyy/MM/dd")<br />
+                <!--Show only time, not date-->
+                 @date.ToString("HH:m")</p>
+                </div>
+          

@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+
+    <header>
+       <div class="headergrid">
+
+           <div class="headergrids">
+               <p class="headerp">Songs for you!</p>
+           </div>
+
+           <div class="headergrids2">
+       
+               <!--Partial for menu-->
+       <partial name="~/Views/Shared/_Menu.cshtml" />
+
+        </div>
+        </div>
+    </header>
+    <div class="content">
+        <main role="main" class="main">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer>
+        <script src="~/js/site.js"></script>
+        <p class="footerp">This page is created with ASP.NET</p>
+        <p class="footerp">Copyright 2022 Tilda Källström</p>
+    </footer>
+   
+</body>
+</html>

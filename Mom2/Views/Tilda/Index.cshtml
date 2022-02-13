@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "_Layout";
+}
+
+<h1 class="homeh1">Songs for you!</h1>
+<p>This is the website for all the music-lovers in the world.</p>
+<p>On this page we let you upload and rate your favourite songs for everyone to see.</p><br />
+<p>We are currently listing the best songs in the following genres:</p>
+<ul class="ulindex">
+    <li class="red">Pop</li>
+    <li class="orange">Rock</li>
+    <li class="green">Electronic</li>
+    <li class="blue">Punk</li>
+    <li class="purple">Post-punk</li>
+</ul>
+<p>If you like other genres, we'll to bad for you!</p>
+<div class="gridindex">
+ <div class="center1">
+          <button class="button" onclick="window.location.href='Tilda/Add'">Add song >></button>
+        </div>
+
+        <div class="center1">
+          <button class="button" onclick="window.location.href='Songs'">View songs >></button>
+        </div>
+
+        </div>
+        <img class="frontimg" src="~/logo.png">
+
+
+        <div class="gride">
+            <div class="user">
+                <h3>-Best app in the world!</h3>
+                <span class="users">Amanda Heisenberg from Colorado</span>
+            </div>
+
+            <div class="user">
+                <h3>-I found my favourite bands here!</h3>
+                <span class="users">Tommi Sparrow from Texas</span>
+            </div>
+
+            <div class="user">
+                <h3>-My band made it to the app!</h3>
+                <span class="users">Elias Pepper from Albania</span>
+            </div>
+        </div>
+
+
+
+
+        <div class="bottom">
+            <div>
+<p class="down">.....Pssssst, Visit the About-page, and then come back here to see the session-magic.</p>
+<p class="session">@ViewBag.text</p>
+</div>
+
+<!--Partial to show time-->
+<partial name="~/Views/Shared/_Time.cshtml" />
+
+</div>

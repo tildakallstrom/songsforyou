@@ -1,0 +1,68 @@
+﻿@model List<Mom2.Models.SongModel>
+
+@{
+    ViewData["Title"] = "View songs";
+}
+
+<h1>@ViewBag.Description</h1>
+
+
+    <div class="grids">
+         @if(Model != null)
+    {
+        @foreach(var song in Model)
+        {
+        <div class="song">
+<span class="songname">@song.Name</span><br> <span>A song made by the</span> 
+ 
+                @if(@song.Genre == "Pop") {
+                   <span class="red">@song.Genre</span> 
+                } 
+                @if(@song.Genre == "Rock") {
+                   <span class="orange">@song.Genre</span>  
+                }
+                @if(@song.Genre == "Electronic") {
+                   <span class="green">@song.Genre</span>  
+                }
+                @if(@song.Genre == "Punk") {
+                   <span class="blue">@song.Genre</span>  
+                }
+                @if(@song.Genre == "Post-punk") {
+                   <span class="purple">@song.Genre</span>  
+                }
+
+
+
+
+<span>band</span> <span class="artist">@song.Artist</span> <span>in the @song.Album album got </span>
+
+@if(song.Review == 1) {
+<span class="review1">@song.Review</span>
+    }
+    @if(song.Review == 2) {
+<span class="review2">@song.Review</span> 
+    }
+    @if(song.Review == 3) {
+<span class="review3">@song.Review</span>
+    }
+    @if(song.Review == 4) {
+<span class="review4">@song.Review</span>
+    }
+    @if(song.Review == 5) {
+<span class="review5">@song.Review</span>
+    }
+
+    <span>stars and</span> 
+
+              @if(@song.Listen) {
+                   <span class="would">we would listen to it again!</span>
+                } else {
+                   <span class="wouldnt">we don't want to hear this song anymore.</span>
+                }
+            <br> <iframe class='video' src='@song.Url' title='YouTube video player' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+         
+        </div>
+         }
+    }
+    </div>
+

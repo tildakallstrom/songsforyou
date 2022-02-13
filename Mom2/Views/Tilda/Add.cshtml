@@ -1,0 +1,55 @@
+﻿@model Mom2.Models.SongModel
+@{
+    ViewData["Title"] = "Add song";
+}
+
+<h1>Add song</h1>
+<p>On this page you can add a new song to list of awesome songs!</p>
+<h2>Fill in:</h2> 
+<ul class="centerul">
+    <li>the name of the song</li>
+    <li>which album the song is in</li>
+    <li>the artist who made the song</li>
+    <li>which genre the song belongs to</li>
+    <li>when you listened to it</li>
+    <li>if you would listen to it again</li>
+    <li>how many stars you want to give the song</li>
+    <li>the url of the song</li>
+</ul><br />
+
+<form method="post" class="form">
+    <div asp-validation-summary="ModelOnly"></div>
+    <label asp-for="Name"></label>
+    <input asp-for="Name" />
+    <span asp-validation-for="Name"></span><br /><br />
+    <label asp-for="Album"></label>
+    <input asp-for="Album" />
+    <span asp-validation-for="Album"></span><br /><br />
+    <label asp-for="Artist"></label>
+    <input asp-for="Artist" />
+    <span asp-validation-for="Artist"></span><br /><br />
+    <label asp-for="Genre"></label>
+    <select asp-for="Genre">
+        <option value="Pop">Pop</option>
+        <option value="Punk">Punk</option>
+        <option value="Rock">Rock</option>
+        <option value="Electronic">Electronic</option>
+        <option value="Post-punk">Post-punk</option>
+    </select><br /><br />
+     <label asp-for="Listened"></label>
+    <input type="date" asp-for="Listened" /><br /><br />
+      <label asp-for="Listen"></label>
+    <input type="checkbox" asp-for="Listen" /><br /><br /><br />
+      <label asp-for="Review"></label>
+    <select asp-for="Review">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select><br /><br />
+     <label asp-for="Url"></label>
+    <input asp-for="Url" />
+    <input type="submit" value="Add song" />
+</form>
+

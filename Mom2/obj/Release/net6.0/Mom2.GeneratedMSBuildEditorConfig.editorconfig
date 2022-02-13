@@ -1,0 +1,52 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Mom2
+build_property.RootNamespace = Mom2
+build_property.ProjectDir = C:\Users\tilda\OneDrive\Desktop\Skola\.NET\Mom2\Mom2\Mom2\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\tilda\OneDrive\Desktop\Skola\.NET\Mom2\Mom2\Mom2
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/tilda/OneDrive/Desktop/Skola/.NET/Mom2/Mom2/Mom2/Views/Shared/_Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tilda/OneDrive/Desktop/Skola/.NET/Mom2/Mom2/Mom2/Views/Shared/_Time.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9UaW1lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tilda/OneDrive/Desktop/Skola/.NET/Mom2/Mom2/Mom2/Views/Tilda/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlsZGFcQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tilda/OneDrive/Desktop/Skola/.NET/Mom2/Mom2/Mom2/Views/Tilda/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlsZGFcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tilda/OneDrive/Desktop/Skola/.NET/Mom2/Mom2/Mom2/Views/Tilda/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlsZGFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tilda/OneDrive/Desktop/Skola/.NET/Mom2/Mom2/Mom2/Views/Tilda/Songs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlsZGFcU29uZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tilda/OneDrive/Desktop/Skola/.NET/Mom2/Mom2/Mom2/Views/_Viewimports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdpbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tilda/OneDrive/Desktop/Skola/.NET/Mom2/Mom2/Mom2/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tilda/OneDrive/Desktop/Skola/.NET/Mom2/Mom2/Mom2/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-7sbo5e585x
